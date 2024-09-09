@@ -88,3 +88,9 @@ button.clear:hover, button.backspace:hover, .equals:hover{
     grid-column: span 2;
 
 }
+
+.display{
+
+    overflow: hidden;
+    
+}
