@@ -13,12 +13,12 @@ document.querySelectorAll( 'button' ).forEach( button => {
 
                 try{
 
-                    displayValue = eval( displayValue );
+                    displayValue = parseFloat( eval( displayValue ) ).toFixed(2);
 
-                }catch{
+                }catch( error ){
 
                     displayValue = 'Error';
-
+                    
                 }
 
                 break;
